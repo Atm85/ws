@@ -1,0 +1,14 @@
+{
+    "name": "atom/ws",
+    "description": "Easy Websockets in php",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "ext-sockets": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atom\\": "src/"
+        }
+    }
+}
